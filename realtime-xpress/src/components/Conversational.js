@@ -288,7 +288,7 @@ const Agent = () => {
   };
 
   const text2speech = async (speech) => {
-    const apiKey = "AIzaSyBJJk3mEGV69CJXdYhPp-blKKMFIlKvu3U"; //pls change to your own google cloud TTS api key after testing
+    const apiKey = "ENTER_YOUR_GOOGLE_CLOUD_API_KEY_HERE"; //pls change to your own google cloud TTS api key after testing
     const url = "https://texttospeech.googleapis.com/v1/text:synthesize";
     const data = {
       input: { text: speech },
