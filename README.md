@@ -16,7 +16,6 @@ To install and run Xpress, follow these steps:
 ```bash
 git clone https://github.com/your-username/Xpress.git
 cd Xpress
-pip install -r requirements.txt  #
 ```
 
 Then, follow instructions in each of the three folders to install each of those components and run the demos.
